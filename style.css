@@ -1,0 +1,41 @@
+body {
+    background-color: skyblue;
+    font-family: Calibri;
+    text-align: left;
+}
+
+h1 {
+    color: navy;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 20px
+}
+
+ table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+    }
+    th, td {
+            padding: 5px;
+    }
+    th {
+            text-align: left;
+    }
+caption {
+    font-size: 25px;
+}
+
