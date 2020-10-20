@@ -4,19 +4,33 @@
         <title>Contact Us</title>
     </head>
     <body>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
 
         <h2>Contact Form</h2>
 
         <form action="/action-page.php">
             <label for "name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
+            <input type="text" id="name" name="name"><br><br>
             <label for "email">Email Address:</label><br>
-            <input type="text" id="email" name="email"><br>
+            <input type="text" id="email" name="email"><br><br>
             <label for "subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject"><br>
+            <input type="text" id="subject" name="subject"><br><br>
             <label for "message">Enter Message:</label><br>
-            <input type="text" id="message" name="message"><br><br>
+            <textarea name="message" rows="15" cols="45">Enter Message Here</textarea><br><br>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for "subscribe">Check this box if you want to subscribe to our weekly emails</label><br><br>
+            <label for "sources">How did you  hear about our website?</label>
+            <input list="sources" name="sources">
+            <datalist id="sources">
+                <option value="Google">
+                <option value="Client Website">
+                <Option value="Word of Mouth">
+                <option value="Other">
+            </datalist><br><br>
             <input type="submit" value="Submit">
+            
         </form>
         <p>Click "Submit" to send in your message. We're waiting to hear from you!</p>
     </body>
