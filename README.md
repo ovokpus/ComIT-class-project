@@ -1,2 +1,2 @@
-# ComIT-class-project
-## Class Project work for Node.js Course
+# ComIT-class-work
+## Class Progress work for Node.js Course
